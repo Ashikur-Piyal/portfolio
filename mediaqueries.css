@@ -36,9 +36,10 @@
         height: fit-content;
     }
     .about-class{
-        height: fit-content;
+        margin-bottom: 100px;
         margin: 0 5%;
         margin-top: -100px;
+
     }
     .experience-class{
         height: fit-content;
@@ -53,7 +54,7 @@
     .contact-class{
         height: fit-content;
         margin: 0 5%;
-        margin-top: -50px;
+        margin-top: -80px;
     }
     .section-pic-container{
         width: 275px;
@@ -123,5 +124,11 @@
     .nav-links-container{
         margin-top: 80px;
     }
+    #about{
+        height: fit-content;
+        padding-bottom: 20px;
+    }
 }
+
+
 
