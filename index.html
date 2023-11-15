@@ -16,7 +16,7 @@
 </head>
 <body>
     <nav id="navbar">
-        <div class="logo"> Ashikur Rahman Piyal</div>
+        <div class="logo"> Ashikur Rahman <br>&emsp;&emsp;<span class="name">Piyal</span> </div>
         <div>
             <ul class="nav-link">
                 <li><a href="#profile">Home</a> </li>
@@ -40,7 +40,7 @@
             <li><a href="#profile" onclick="toggleMenu()">Home</a> </li>
             <li><a href="#about" onclick="toggleMenu()">About</a> </li>
             <li><a href="#experience" onclick="toggleMenu()">Experience</a> </li>
-            <li><a href="#project" onclick="toggleMenu()">Project</a> </li>
+            <li><a href="#projects" onclick="toggleMenu()">Project</a> </li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a> </li>
   
             
@@ -50,13 +50,13 @@
     </nav>
 
     <section id="profile">
-        <div class="profile-picture">
+        <div class="section-pic-container">
             <img class="profile-pic" src="picture/IMG_1071.jpg" alt="">
         </div>
         <div class="section-text">
             <p class="section-text-p1">Hello It's me</p>
             <h1 class="title">Ashikur Rahman Piyal</h1>
-            <p class="section-text-p2">Frontend Developer</p>
+            <p class="section-text-p2">Web Developer</p>
             <div class="btn-container">
                 <button class=" btn btn-color-2" onclick="window.open()">
                   CV
@@ -65,7 +65,7 @@
                     contact
                   </button>
             </div>
-            <div class="social-container">
+            <div id="social-container">
                 <img src="picture/702300.png" alt=""
                 class="social-icon" onclick="location.href='https://linkedin.com/in/ashikur-rahman-55522318a/'" >
                 <img src="picture/25231.png" alt=""
@@ -75,49 +75,53 @@
         </div>
     </section>
     <section id="about">
-        <div id="about-me">
-            <p class="section-text-p1">Get to Know More</p>
-            <h1 class="title">About me</h1>
+        <div class="about-class">
+            <div id="about-me">
+                <p class="section-text-p1">Get to Know More</p>
+                <h1 class="title">About me</h1>
+            </div>
+            
+            <div class="section-container">
+                <div class="section-pic-container">
+                    <img class="about-pic" src="picture/20200620_201626_Original.jpg" alt="">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img class="social-icon" src="picture/experience.webp" alt="">
+                            <h3>Experience</h3>
+                            <p> <span id="year">1+ year </span><br />Frontend Development <br><span id="year">1+ year</span> <br>backend development </p>
+                        </div>
+                        <div class="details-container">
+                            <img class="social-icon" src="picture/education.jpg" alt="">
+                            <h3>Education</h3>
+                            <p>Bsc. in Computer Science and Engineering </p>
+                            <h5>Independent University, Bangladesh</h5>
+                            <p class="college">HSC</p>
+                            <h5>BAF Shaheen College Kurmitola</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>I am Ashikur Rahman Piyal, a dedicated and aspiring developer currently pursuing a Bachelor 
+                            of Science in Computer Science. My passion for technology and creativity has driven my 
+                            journey into the world of web development. With a keen eye for design and a solid foundation
+                             in HTML, CSS, and JavaScript, I specialize in creating intuitive and visually appealing user 
+                             interfaces.</p>
+                    </div>
+                 </div>
+            </div>
+            <img src="picture/arrow.png" alt="" 
+            class="social-icon arrow"
+            onclick="location.href='./#experience'">
         </div>
         
-        <div class="section-container">
-            <div class="section-pic-container">
-                <img class="about-pic" src="picture/20200620_201626_Original.jpg" alt="">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img class="social-icon" src="picture/experience.webp" alt="">
-                        <h3>Experience</h3>
-                        <p> <span id="year">1+ year </span><br />Frontend Development <br><span id="year">1+ year</span> <br>backend development </p>
-                    </div>
-                    <div class="details-container">
-                        <img class="social-icon" src="picture/education.jpg" alt="">
-                        <h3>Education</h3>
-                        <p>Bsc. in Computer Science and Engineering </p>
-                        <h5>Independent University Bangladesh</h5>
-                        <p class="college">HSC</p>
-                        <h5>BAF Shaheen College Kurmitola</h5>
-                        
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p>I am Ashikur Rahman Piyal, a dedicated and aspiring developer currently pursuing a Bachelor 
-                        of Science in Computer Science. My passion for technology and creativity has driven my 
-                        journey into the world of web development. With a keen eye for design and a solid foundation
-                         in HTML, CSS, and JavaScript, I specialize in creating intuitive and visually appealing user 
-                         interfaces.</p>
-                </div>
-             </div>
-        </div>
-        <img src="picture/arrow.png" alt="" 
-        class="social-icon arrow"
-        onclick="location.href='./#experience'">
 
     </section>
 
     <section id="experience">
-        <p class="section-text-p1">Explore My</p>
+        <div class="experience-class">
+            <p class="section-text-p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
             <div class="about-containers">
@@ -216,7 +220,111 @@
         <img src="picture/arrow.png" alt="" 
         class="social-icon arrow"
         onclick="location.href='./#projects'">
+
+        </div>
+        
     </section>
+
+   
+
+    <section id="projects">
+        <div class="project-class">
+            <p class="section-text-p1"> Browese My Project</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+               <div class="details-container color-container">
+                 <div class="article-container">
+                    <img src="picture/project1.png" alt=""
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 1</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com'">
+                     Github</button>
+
+                     <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com'">
+                     Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="picture/project2.png" alt=""
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 2</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com'">
+                     Github</button>
+
+                     <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com'">
+                     Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="picture/project3.png" alt=""
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 3</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com'">
+                     Github</button>
+
+                     <button class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://piyal132.github.io/portfolio/'">
+                     Live Demo</button>
+                </div>
+             </div>
+           </div>
+         </div>
+         </div>
+         <img src="picture/arrow.png" alt="" 
+         class="social-icon arrow"
+         onclick="location.href='./#contact'"/>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <div class="contact-class">
+            <p class="section-text-p1">Get In Touch</p>
+           <h1 class="title"> contact Me</h1>
+            <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="picture/images (2).jpeg" alt=""
+                class="social-icon contact-icon">
+                <p><a href="mailto:examplemail.com">piyal8642@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="picture/702300.png" alt=""
+                class="social-icon contact-icon icon">
+                <p><a href="https://linkedin.com/in/ashikur-rahman-55522318a/">Ashikur Rahman</a></p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-link">
+                    <li><a href="#profile">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#experience">Experience</a> </li>
+                    <li><a href="#projects">Projects</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+     
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Ashikur Rahman Piyal. All Rights Reserved</p>
+    </footer>
+   
 
 
     <script src="script.js"></script>
