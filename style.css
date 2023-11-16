@@ -57,6 +57,13 @@ a:hover{
     z-index: 100;
 
 }
+.my-logo{
+    height: 5rem;
+    cursor: default; 
+    border-radius: 2.5rem;
+    margin-left: 50px;
+    margin-right: 80px;
+}
 .logo{
     font-size: 2rem;
     margin-left: 90px;
