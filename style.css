@@ -282,6 +282,9 @@ section {
 .about-details-container {
     display: flex;
 }
+.about-me{
+    color: black;
+}
 
 .about-pic{
     border-radius: 2rem;
