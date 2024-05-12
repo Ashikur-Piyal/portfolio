@@ -399,6 +399,9 @@ article .social-icon{
     color: black;
     border-color: rgb(163, 163, 163);
   }
+  .project{
+    margin-bottom: 20px;
+  }
 
   #contact {
     background-color: antiquewhite;
